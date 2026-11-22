@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    width: 100%;
+    max-width: 550px;
+    padding: 35px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #5b4b8a;
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+
+.quote-box {
+    background: #f4f1ff;
+    padding: 30px 20px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+#quote {
+    font-size: 22px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+#author {
+    color: #7654a5;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    background: #6c5ce7;
+    color: white;
+    font-size: 16px;
+    margin: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #5140c9;
+    transform: translateY(-2px);
+}
+
+#shareQuote {
+    background: #27ae60;
+}
+
+#shareQuote:hover {
+    background: #219150;
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 25px 18px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    #quote {
+        font-size: 19px;
+    }
+}
